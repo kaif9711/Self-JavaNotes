@@ -77,3 +77,43 @@ public class Test {
 }
 */
 
+/*
+Question 2
+Inside Main, complete the following steps:
+Create a method named welcomeMessage
+The method should print Welcome to Java!
+Call welcomeMessage() inside main()
+Note: The method must be static.
+
+
+
+public class Test{
+
+    public static void main(String[] arg){
+
+        welcomeMessage(arg);
+    }
+    public static void welcomeMessage(String[] arg){
+        System.out.println("welcome to Java");
+
+    }
+
+}
+
+/*
+Question3 Swap Numbers
+
+ public class Test{
+     public static void main(String[] args){
+         int a = 10;
+         int b = 20;
+         int temp = 0;
+         //temp 10
+         temp = a;
+         a = b ;
+         b = temp;
+         System.out.println("Hello World" + a + " and " + b);
+     }
+ }
+ */
+
