@@ -1,16 +1,12 @@
-public class Test{
-    public static void main(String[] arg){
-        int a = 10;
-        Integer b = a; // Autoboxing: converting primitive to wrapper class
+/*package whatever //do not write package name here */
 
-        int c = b; // Unboxing: converting wrapper class to primitive
+import java.io.*;
 
+class Test {
+    public static void main (String[] args) {
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
+        int x = 1;
 
-
+        System.out.println(~ x);
     }
 }
-
