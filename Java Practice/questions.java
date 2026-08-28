@@ -634,7 +634,6 @@ public class Test {
             } else {
                 System.out.print("Number is Negative Odd");
             }
-
         } else {
             System.out.print("Zero");
         }
