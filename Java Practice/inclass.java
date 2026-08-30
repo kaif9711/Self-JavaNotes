@@ -1,13 +1,14 @@
-// Question: Calculate the are of circle ?
-import java.util.*;
+public class inclass{
+    public static void main(String[] main){
+        int i;
+        for(i=1; i<6; i++){
+            System.out.print("*");
 
-public class inclass {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the radius");
-        double r = sc.nextDouble();
-        double area = Math.PI * r * r;
-
-        System.out.println("Are of circle is : " + area);
+            for(int n=1; i<6; i++){
+                System.out.print("*");
+            }
+        }
     }
+
 }
+
