@@ -8,6 +8,7 @@ public class ascii_value
         char character = sc.next().charAt(0);
 
         int ascii = character;
+        //int ascii = (int)character;
 
         System.out.println("The ascii value of the Character is " + ascii);
 

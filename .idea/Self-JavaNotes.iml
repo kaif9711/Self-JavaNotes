@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Java Practice" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GFG" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/More Loops" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

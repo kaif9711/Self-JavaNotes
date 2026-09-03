@@ -1,18 +1,25 @@
-public class Test{
-    public static void main(String[] main){
-        int i=1;
-        int n=1;
-        while(i<6){
-            //System.out.println("*");
-            i++;
-            while(n<6){
-                System.out.print("*");
-                n++;
+import java.util.Scanner;
 
+public class Test {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" Enter a number to check its  total factors");
+        int num = sc.nextInt();
+        int result = factor(num);
+    }
+
+    public static int factor(int num){
+        int count = 0;
+        for ( int i = 1; i<=num ; i++){
+            if(num%i==0){
+                System.out.println(i);
+                count ++;
             }
-            n =1;
-            System.out.println();
+
+
         }
+        System.out.println("total factors are " + count);
+        return count;
     }
 
 }
