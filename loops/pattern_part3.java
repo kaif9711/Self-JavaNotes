@@ -11,7 +11,7 @@ public class pattern_part3
             int j=1;
             System.out.println();
 
-            while(j<6){
+            while(j<=6){
                 System.out.print(i);
                 j++;
             }
