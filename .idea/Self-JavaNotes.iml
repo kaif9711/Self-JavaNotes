@@ -13,6 +13,8 @@
       <sourceFolder url="file://$MODULE_DIR$/More Loops" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Arrays and Strings" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/oops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Collections_Framework" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gfg_dsa" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

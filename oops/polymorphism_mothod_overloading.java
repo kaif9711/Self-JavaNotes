@@ -3,7 +3,7 @@
 public class polymorphism_mothod_overloading
 {
 
-    // 1 . method overriding with different number of arguments
+    // 1 . method overloading with different number of arguments
 //    int num(int a)
 //    {
 //        return a;
@@ -16,7 +16,7 @@ public class polymorphism_mothod_overloading
 
 
 
-    // 2 . method overriding with different data type of arg
+    // 2 . method overloading with different data type of arg
 //    String num(String a)
 //    {
 //        return a;
@@ -29,7 +29,7 @@ public class polymorphism_mothod_overloading
 
 
 
-    // 3 . method overriding with different sequence and data typesof arg
+    // 3 . method overloading with different sequence and data typesof arg
 
     void num(String a, int b)
     {

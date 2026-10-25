@@ -8,7 +8,8 @@ public class inheritance_3
         this.salary = salary;
     }
 
-        void displayEmployee(){
+        void displayEmployee()
+        {
             System.out.println("Salary" + salary + "id" + id);
         }
     }
@@ -22,7 +23,8 @@ public class inheritance_3
         this.bonus = bonus;
         }
 
-        void displayManager(){
+        void displayManager()
+        {
         System.out.println("Salary : " + salary + "id : " + id + "Bonus : " + bonus);
         }
     }

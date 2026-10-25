@@ -1,5 +1,4 @@
-public class
-method_overriding
+public class method_overriding
 {
     void show(String a , int b){                                //1. method with no arg  //2. method with same type arg //3.method with same seq of arg
         System.out.println("1");

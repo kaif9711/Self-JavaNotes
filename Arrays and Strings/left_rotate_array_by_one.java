@@ -21,7 +21,8 @@ public class left_rotate_array_by_one
 class left_rotate{
     public int[] left_rotate_by_one(int[] arr, int n){
         int temp = arr[0];
-        for(int i= 1; i<n; i++){
+        for(int i= 1; i<n; i++)
+        {
             arr[i-1] = arr[i];
         }
         arr[n-1] = temp;

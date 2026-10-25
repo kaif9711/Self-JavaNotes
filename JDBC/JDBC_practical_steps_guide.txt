@@ -1,0 +1,18 @@
+1. created new project on intelliJ with maven 
+2. created a new Databse on MySQL using Dbeaver
+3. create a package names as model which consists of a student class which will store all the private variables simiolar to the onces used in the database(as column like id, name, email...) 
+4. In main class, created 3 string var as url which will store connection jdbc connection url to the database, username and passowrd
+5. using Connection interface to create connection with the database,
+
+	try
+        {
+            Connection connection = DriverManager.getConnection(url, username, password);   		// Connection interface and DriverManager used to connect to the db
+            System.out.println("Connection to the database successfull !");
+						connection.close(); 	// connection closed
+					}
+        catch(SQLException e)
+        {
+            System.out.println("Dtabase Connection failed !");
+            e.printStackTrace(); 	// prints what is thereason for disconnection
+	
+        }

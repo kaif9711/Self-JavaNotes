@@ -35,7 +35,6 @@ class duplicates
                 i++;
 
             }
-
         }
         return i + 1;
     }

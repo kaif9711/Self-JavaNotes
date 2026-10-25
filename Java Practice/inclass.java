@@ -1,41 +1,42 @@
-import java.util.Scanner;
-
-public class inclass{
-
-    public static void main(String[] args){
-
-        int x=0;
-        int y = 0;
-
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a letter");
-        char value = sc.next().charAt(0);
-
-        switch(value){
-            case '1':
-                System.out.println("Monday");
-                break;
-            case '2':
-                System.out.println("Tuesday");
-                break;
-            case '3':
-                System.out.println("Wednesday");
-                break;
-            case '4':
-                System.out.println("Thursday");
-                break;
-            case '5':
-                System.out.println("Friday");
-                break;
-            case '6':
-                System.out.println("Saturday");
-                break;
-            case '7':
-                System.out.println("Sunday");
-                break;
-            default:
-                System.out.println("Invalid character");
-        }
+public class inclass
+{
+    void showAge()
+    {
+        System.out.println("my age is 67");
     }
+
 }
+
+class inclass1 extends inclass
+{
+    void showAge1(int a)
+    {
+        System.out.println("my age is 35");
+
+    }
+
+}
+
+class inclass2 extends inclass1
+{
+
+    void showAge2()
+    {
+        System.out.println("my age is 19");
+    }
+
+    public static void main(String[] args)
+    {
+        inclass2 obj = new inclass2();
+        obj.showAge();
+        obj.showAge1(22);
+        obj.showAge2();
+
+    }
+
+
+}
+
+
+
 
